@@ -1,0 +1,8 @@
+.colored {
+    background-color: turquoise;
+}
+
+.important {
+    font-weight: bold;
+    color: red;
+}
