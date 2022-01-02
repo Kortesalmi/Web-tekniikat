@@ -1,0 +1,43 @@
+div {
+    margin: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6, .highlight{
+    color: red;
+}
+
+p > span {
+    font-weight: bold;
+}
+
+.blue {
+    color: blue;
+}
+
+.blue {
+    color: pink;
+}
+
+#main-heading, h1 + p {
+    color: green;
+}
+
+.purple {
+    color: purple;
+}
+
+h1 ~ p {
+    font-style: italic;
+}
+
+input[required] {
+    border: 2px solid black;
+}
+
+input:focus {
+    border-color: green;
+}
+
+[class^=article] {
+    font-family: 'Courier New', Courier, monospace;
+}
